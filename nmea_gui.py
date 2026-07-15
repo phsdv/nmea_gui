@@ -289,7 +289,7 @@ class SerialWorker(QtCore.QThread):
 # Main window
 # --------------------------------------------------------------------------
 
-MAX_TRACK_POINTS = 100_000
+MAX_TRACK_POINTS = 5_000
 MAX_CONSOLE_LINES = 500
 
 COMMON_BAUDS = ["4800", "9600", "19200", "38400", "57600", "115200"]
