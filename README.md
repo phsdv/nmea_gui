@@ -15,8 +15,11 @@ Requirements:
 Usage:
 
     uv run nmea_gui.py
-    (then enter your COM port in the gui, e.g. COM4, and click Connect)
+
+or
 
     python3 nmea_gui.py --port COM4 --baud 9600   (auto-connects on launch, 9600 is now the default)
 
-This software id provided as is. There is no plan to improve it nor maintain it.
+Tested on Windows 10, wth python 3.13
+
+![](nmea_initial.png)

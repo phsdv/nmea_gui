@@ -1,0 +1,11 @@
+[project]
+name = "nmea-gui"
+version = "0.1.0"
+description = "Real-time GUI for monitoring a GNSS receiver on a serial/COM port"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.11.0",
+    "pyqt6>=6.11.0",
+    "pyserial>=3.5",
+]
