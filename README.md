@@ -15,10 +15,10 @@ Requirements:
 Usage examples:
 
     uv run nmea_gui.py
-    uv run nmea_gui.py --port COM4 --baud 9600
+    uv run nmea_gui.py --port COM4 --baud 9600 --autoconnect
 
     python3 nmea_gui.py
-    python3 nmea_gui.py --port COM4 --baud 9600  
+    python3 nmea_gui.py --port COM4 --baud 9600 --autoconnect
 
 
 Tested on Windows 10, with python 3.13
