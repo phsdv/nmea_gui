@@ -12,14 +12,15 @@ a background thread and displays live-updating:
 Requirements:
   PyQt6 pyserial matplotlib
 
-Usage:
+Usage examples:
 
     uv run nmea_gui.py
+    uv run nmea_gui.py --port COM4 --baud 9600
 
-or
+    python3 nmea_gui.py
+    python3 nmea_gui.py --port COM4 --baud 9600  
 
-    python3 nmea_gui.py --port COM4 --baud 9600   (auto-connects on launch, 9600 is now the default)
 
-Tested on Windows 10, wth python 3.13
+Tested on Windows 10, with python 3.13
 
 ![](nmea_initial.png)
