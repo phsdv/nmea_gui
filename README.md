@@ -16,11 +16,13 @@ Usage examples:
 
     uv run nmea_gui.py
     uv run nmea_gui.py --port COM4 --baud 9600 --autoconnect
+    uv run nmea_gui.py --port /dev/cu.usbmodem00000000001A1 --autoconnect 
 
     python3 nmea_gui.py
     python3 nmea_gui.py --port COM4 --baud 9600 --autoconnect
 
 
-Tested on Windows 10, with python 3.13
+Only tested with QRP-Labs QLG2 GPS Receiver kit on Windows 10, with python 3.13 and on Mac OS 26.5 with python 3.14.
+Note that on a Mac you should not connect via an USB-hub. Using a USB-hub might leave the QLG2 in DFU boot loader.
 
 ![](nmea_initial.png)
