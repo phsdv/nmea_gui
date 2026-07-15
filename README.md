@@ -13,6 +13,7 @@ Requirements:
   PyQt6 pyserial matplotlib
 
 Usage:
+
     uv run nmea_gui.py
     (then enter your COM port in the gui, e.g. COM4, and click Connect)
 
